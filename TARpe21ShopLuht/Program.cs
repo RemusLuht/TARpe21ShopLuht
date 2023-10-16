@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using TARpe21ShopLuht.Core.ServiceInterface;
+using TARpe21ShopLuht.Data;
+using TARpe21ShopLuht.ApplicationServices.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<TARpe21ShopLuhtContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
 
 var app = builder.Build();
 
