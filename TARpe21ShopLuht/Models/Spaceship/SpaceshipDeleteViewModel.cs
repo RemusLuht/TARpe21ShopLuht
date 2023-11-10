@@ -1,11 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
-using TARpe21ShopLuht.Core.Domain.Spaceship;
-
-namespace TARpe21ShopLuht.Models.Spaceship
+﻿namespace TARpe21ShopLuht.Models.Spaceship
 {
-    public class SpaceshipEditViewModel
+    public class SpaceshipDeleteViewModel
     {
-        [Key]
         public Guid? Id { get; set; } // globally unique identifier
         public string Name { get; set; } // ship name
         public string Description { get; set; } // ship description
@@ -24,15 +20,12 @@ namespace TARpe21ShopLuht.Models.Spaceship
         public int FuelConsumptionPerDay { get; set; } // fuel consumed in a days worth of space traveled at maximum speed
         public int MaintenanceCount { get; set; } // how many maintenance sessions have been conducted on this ship
         public DateTime LastMaintenance { get; set; } // when was the last maintenance performed
+        public List<ImageViewModel> Image { get; set; } = new List<ImageViewModel>();
 
 
         // only in database
 
         public DateTime CreatedAt { get; set; } // when the entry was created
         public DateTime ModifiedAt { get; set; } // when the entry has been modified last
-
-
-
     }
-
 }
