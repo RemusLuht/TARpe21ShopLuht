@@ -94,6 +94,7 @@ namespace TARpe21ShopLuht.ApplicationServices.Services
                 }
             }
         }
+
         public async Task<List<FileToApi>> RemoveImagesFromApi(FileToApiDto[] dtos)
         {
             foreach (var dto in dtos)
