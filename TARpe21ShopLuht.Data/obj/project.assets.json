@@ -2329,24 +2329,29 @@
   },
   "packageFolders": {
     "C:\\Users\\opilane\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\TARpe21ShopLuht.Data.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Source\\Repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\TARpe21ShopLuht.Data.csproj",
       "projectName": "TARpe21ShopLuht.Data",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\TARpe21ShopLuht.Data.csproj",
+      "projectPath": "C:\\Users\\opilane\\Source\\Repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\TARpe21ShopLuht.Data.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Source\\Repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2360,8 +2365,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\opilane\\source\\repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Core\\TARpe21ShopLuht.Core.csproj": {
-              "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Core\\TARpe21ShopLuht.Core.csproj"
+            "C:\\Users\\opilane\\Source\\Repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Core\\TARpe21ShopLuht.Core.csproj": {
+              "projectPath": "C:\\Users\\opilane\\Source\\Repos\\TARpe21ShopLuht\\TARpe21ShopLuht.Core\\TARpe21ShopLuht.Core.csproj"
             }
           }
         }
@@ -2413,7 +2418,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
