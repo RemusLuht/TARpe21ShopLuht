@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TARpe21ShopLuht.Core.ServiceInterface
 {
-    internal class IWeatherForecastsServices
+    public interface IWeatherForecastsServices
     {
     }
 }

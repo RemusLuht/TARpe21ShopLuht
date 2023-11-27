@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TARpe21ShopLuht.ApplicationServices.Services
 {
-    internal class WeatherForecastsServices
+    public class WeatherForecastsServices
     {
     }
 }
