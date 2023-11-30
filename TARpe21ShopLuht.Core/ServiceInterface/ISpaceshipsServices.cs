@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TARpe21ShopLuht.Core.Domain;
-using TARpe21ShopLuht.Core.Domain.Spaceship;
 using TARpe21ShopLuht.Core.Dto;
 
 namespace TARpe21ShopLuht.Core.ServiceInterface
